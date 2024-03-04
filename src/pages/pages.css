@@ -1,0 +1,161 @@
+div{
+    position: relative;
+}
+.activity , .chats , .events , .myaccount , .usraccounts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+    font-size: 300%;
+}
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+}
+.element{
+    display: inline-block;
+}
+.head, .table_info  {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 95px;
+    padding: 32px, 10px, 20px, 10px;
+    gap: 24px;
+}
+div > strong {
+    font-family: Inria Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.head > .search {
+    background: #000000;
+    background-color: #FFFFFFB0;
+    width: 560px;
+    height: 70px;
+    padding: 10px, 21px, 10px, 21px;
+    border-radius: 5px;
+    gap: 8px;
+    cursor: pointer;
+}
+.head > .search > strong{
+    position: inherit;
+    color: #67676799;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 15px;
+    left: 22.4px;
+}
+.head > .notifications, .setting{
+    width: 70px;
+    height: 70px;
+    padding: 22.6px, 22.62px, 22.41px, 22.4px;
+    border-radius: 20.82px;
+    background: #FFFFFF;
+}
+.icon {
+    position: relative;
+    width: 24.99px;
+    height: 24.99px;
+    top: 22.6px;
+    left: 22.4px;
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.table_info{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 692px;
+    top: 121px;
+    gap: 23px;
+}
+.table_info > strong{
+    width: 187px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+.table_elements{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 621px;
+    padding: 32px;
+    border-radius: 5px;
+    gap: 20px;
+    background-color: #F2F2F2;
+}
+.header_row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 860px;
+    height: 41px;
+    padding: 10px, 0px, 10px, 0px;
+    gap: 20px;
+    background-color: #225686;
+}
+.header_row > li {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.table_ele{
+    width: 890px;
+    height: 495.34px;
+    background-color: #FFFFFF;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 860px;
+    height: 110px;
+    padding: 40px, 0px, 40px, 0px;
+    gap: 20px;
+}
+.row > li{
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.btnAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 181px;
+    height: 43.84px;
+    font-size: 20px;
+    gap: 20pxpx;
+}
+.btnAction > li {
+    width: 14px;
+    height: 24px;
+    top: 13.43px;
+    left: 82.02px;
+    padding: 2.88px, 3px, 4px, 3px;
+}
+li{
+    list-style-type: none;
+}
+.btnAction > li:hover{
+    color: #225686;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.nav {
+    background-color: #9B679C;
+    width: 370px;
+    height: 2333px;
+    position: absolute;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    padding: 36.44px 66.63px 36.44px 66.63px;
+    gap:58.3px;
+}
+.elements div {
+    width: 241.53px;
+    height: 62.47px;
+    border-radius: 5px;
+    /* background-color: blue; */
+    padding: 21.26px, 87.27px, 20.2px, 9.27px;
+    border-radius: 5px;
+}
+.elements :hover{
+    background-color: #142E6E;
+    cursor: pointer;
+}
+a {
+    position: relative;
+    width: 145px;
+    height: 21px;
+    top: 21.26px;
+    left: 9.27px ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.desc_icon_logo{
+    /* width: 47px;
+    height: 47px; */
+    position: relative;
+    font-size: 40px;
+}
+.desc_name_logo{
+    position: relative;
+    width: 180px;
+    height: 40px;
+    font-family: JejuHallasan;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.desc_icon{
+    top: 0px;
+    left: -0.5px;
+    border: 2px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.desc_name{
+    top: -1.81px;
+    position: inherit;
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 143.99px;
+    height: 16.84px;
+    left: 30px;
+}
